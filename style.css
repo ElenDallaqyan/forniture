@@ -41,7 +41,7 @@ button {
   cursor: pointer;
 }
 
-/* NAVBAR */
+
 
 .nav_container {
   width: 100%;
@@ -164,7 +164,7 @@ button {
   color: var(--white-primary);
 }
 
-/* BROWSE RANGE */
+
 
 .main__container2 {
   padding: 56px 126px 0 131px;
@@ -216,7 +216,7 @@ button {
   color: var(--gray1);
 }
 
-/* PRODUCTS */
+
 
 .products__container {
   padding: 56px 102px 0;
@@ -256,7 +256,7 @@ button {
   color: var(--yellow);
 }
 
-/* ROOMS SLIDER */
+
 
 .rooms-section {
   margin-top: 69px;
@@ -425,7 +425,7 @@ button {
   margin: auto;
 }
 
-/* FUNIRO FURNITURE */
+
 
 .share-section {
   width: 100%;
@@ -531,7 +531,7 @@ button {
   height: 220px;
 }
 
-/* FOOTER */
+
 
 .footer {
   border-top: 1px solid var(--border);
@@ -606,6 +606,55 @@ button {
   font-weight: 400;
   font-size: 16px;
   color: var(--black);
+}
+
+.products__card {
+  position: relative; 
+  overflow: hidden;
+}
+
+.products__card img {
+  width: 100%;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background: rgba(0, 0, 0, 0.6);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+.products__card:hover .overlay {
+  opacity: 1;
+}
+
+.overlay button {
+  background: white;
+  color: #b88e2f;
+  border: none;
+  padding: 12px 28px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.overlay_actions {
+  display: flex;
+  gap: 20px;
+  color: white;
+  font-size: 14px;
 }
 
 
@@ -950,7 +999,7 @@ button {
   }
 }
 
-/* SMALL MOBILE */
+
 
 @media screen and (max-width: 480px) {
   .main__card h1 {

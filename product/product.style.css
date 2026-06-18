@@ -1,0 +1,398 @@
+.productContainer_2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 55px 125px 64px 96px;
+}
+
+.productContainer_2_title {
+  max-width: 223px;
+  h3 {
+    font-size: 28px;
+    font-weight: 500;
+    font-family: Poppins;
+    margin-top: 55px;
+  }
+}
+
+.productContainer_2_title button {
+  border-top: transparent;
+  border-right: transparent;
+  border-left: transparent;
+  border-bottom: 1px solid grey;
+  margin-top: 21px;
+  background-color: transparent;
+  span {
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 500;
+    color: #727272;
+  }
+}
+
+.productContainer_2_image {
+  img {
+    width: 280px;
+    height: 177px;
+    background-color: #f9f1e7;
+    border-radius: 10px;
+    margin-top: 24px;
+  }
+}
+
+.productContainer_2_image .span1 {
+  color: #000000;
+  font-family: poppins;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.productContainer_2_image span {
+  color: #000000;
+  font-family: poppins;
+  font-size: 18px;
+  font-weight: 500;
+}
+.productContainer_2_image {
+  display: flex;
+  flex-direction: column;
+}
+
+.productContainer_2_button {
+  h3 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+}
+
+.productContainer_2_stars button {
+  border-right: transparent;
+  border-bottom: transparent;
+  border-left: 1px solid grey;
+  border-top: transparent;
+  background-color: transparent;
+  span {
+    font-family: poppins;
+    font-size: 13px;
+    font-weight: 400;
+    color: #727272;
+    gap: 20px;
+  }
+}
+
+.productContainer_2_stars {
+  margin-top: 10px;
+}
+
+.productContainer_2_button button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  border-radius: 6px;
+  margin-top: 20px;
+
+  background-color: #b88e2f;
+  color: white;
+  border: none;
+  padding: 14px 32px;
+  font-family: poppins;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .productContainer_2 {
+    padding: 40px 60px;
+    gap: 20px;
+  }
+
+  .productContainer_2_title h3 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .productContainer_2 {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .productContainer_2_title,
+  .productContainer_2_image,
+  .productContainer_2_button {
+    flex: 0 0 45%;
+  }
+
+  .productContainer_2_image {
+    align-items: center;
+  }
+
+  .productContainer_2_button button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 428px) {
+  .productContainer_2 {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px;
+  }
+
+  .productContainer_2_title,
+  .productContainer_2_image,
+  .productContainer_2_button {
+    flex: 0 0 100%;
+    width: 100%;
+  }
+
+  .productContainer_2_title h3 {
+    font-size: 20px;
+    margin-top: 0;
+  }
+
+  .productContainer_2_image img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .productContainer_2_button {
+    text-align: center;
+  }
+
+  .productContainer_2_button button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+.productContainer3_general {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-left: 96px;
+  align-items: center;
+  gap: 30px;
+}
+
+.into_productContainer3_general_title {
+  font-family: poppins;
+  font-size: 28px;
+  font-weight: 500;
+  color: black;
+  margin-top: 28px;
+}
+
+.into_productContainer3_general span {
+  display: flex;
+  flex-direction: column;
+  font-family: poppins;
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+}
+
+.into_productContainer3_general {
+  padding-right: 84px;
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  border-right: 1px solid #e8e8e8;
+}
+
+.second_block {
+  margin-top: 92px;
+  padding-left: 62px;
+}
+
+.productContainer_3 {
+  border-top: 1px solid #e8e8e8;
+}
+
+.into_productContainer4_Warranty button {
+  background-color: #b88e2f;
+  border: transparent;
+  span {
+    padding: 17px 48px 17px 48px;
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+  }
+}
+
+.into_productContainer4_Warranty h2 {
+  font-family: poppins;
+  font-size: 28px;
+  font-weight: 500;
+  color: black;
+  margin-top: 28px;
+  margin-bottom: 34px;
+}
+
+.into_productContainer4_Warranty1 button {
+  background-color: #b88e2f;
+  border: transparent;
+  margin-bottom: 100px;
+  padding: 17px 48px 17px 48px;
+  display: flex;
+  justify-content: center;
+  span {
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+  }
+}
+
+.productContainer4_Warranty {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-left: 96px;
+  gap: 30px;
+}
+
+.productContainer4_Warranty > div {
+  padding-right: 20px;
+  border-right: 1px solid #ccc;
+}
+
+.productContainer4_Warranty > div:last-child {
+  border-right: none;
+}
+
+.into_productContainer4_Warranty,
+.into_productContainer4_Warranty1 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.into_productContainer4_Warranty span,
+.into_productContainer4_Warranty1 p {
+  font-family: poppins;
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+}
+
+.into_productContainer4_Warranty1 button {
+  align-self: center;
+  margin-right: 30px;
+}
+
+.productContainer4_Warranty a {
+  text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+  .productContainer_2 {
+    padding: 40px 60px;
+    gap: 20px;
+  }
+
+  .productContainer3_general,
+  .productContainer4_Warranty {
+    grid-template-columns: repeat(2, 1fr); /* 4 → 2 columns */
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .second_block {
+    margin-top: 40px;
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .productContainer_2 {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .productContainer_2_title,
+  .productContainer_2_image,
+  .productContainer_2_button {
+    flex: 0 0 100%;
+  }
+
+  .productContainer_2_image {
+    align-items: center;
+  }
+
+  .productContainer_2_button button {
+    width: 100%;
+  }
+
+  .productContainer3_general {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  .into_productContainer3_general {
+    border-right: none;
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 20px;
+  }
+
+  .productContainer4_Warranty {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  .productContainer4_Warranty > div {
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+  }
+
+  .into_productContainer4_Warranty1 button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 428px) {
+  .productContainer_2 {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .productContainer_2_title h3 {
+    font-size: 20px;
+    margin-top: 0;
+  }
+
+  .productContainer_2_image img {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .productContainer_2_button button {
+    width: 100%;
+  }
+
+  .productContainer3_general {
+    gap: 20px;
+  }
+
+  .into_productContainer3_general span {
+    font-size: 16px;
+  }
+
+  .into_productContainer4_Warranty,
+  .into_productContainer4_Warranty1 {
+    gap: 25px;
+  }
+
+  .into_productContainer4_Warranty span,
+  .into_productContainer4_Warranty1 p {
+    font-size: 16px;
+  }
+
+  .into_productContainer4_Warranty1 button {
+    width: 100%;
+    padding: 14px;
+  }
+}
