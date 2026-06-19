@@ -41,8 +41,6 @@ button {
   cursor: pointer;
 }
 
-
-
 .nav_container {
   width: 100%;
   min-height: 100px;
@@ -107,8 +105,6 @@ button {
   background-color: var(--black);
 }
 
-
-
 .main__container {
   min-height: calc(100vh - 100px);
   background: url("/images/home_background.jpg") center / cover no-repeat;
@@ -164,8 +160,6 @@ button {
   color: var(--white-primary);
 }
 
-
-
 .main__container2 {
   padding: 56px 126px 0 131px;
 }
@@ -216,8 +210,6 @@ button {
   color: var(--gray1);
 }
 
-
-
 .products__container {
   padding: 56px 102px 0;
 }
@@ -255,8 +247,6 @@ button {
   font-size: 16px;
   color: var(--yellow);
 }
-
-
 
 .rooms-section {
   margin-top: 69px;
@@ -425,8 +415,6 @@ button {
   margin: auto;
 }
 
-
-
 .share-section {
   width: 100%;
   background: var(--white-primary);
@@ -531,8 +519,6 @@ button {
   height: 220px;
 }
 
-
-
 .footer {
   border-top: 1px solid var(--border);
 }
@@ -609,7 +595,7 @@ button {
 }
 
 .products__card {
-  position: relative; 
+  position: relative;
   overflow: hidden;
 }
 
@@ -656,10 +642,6 @@ button {
   color: white;
   font-size: 14px;
 }
-
-
-
-
 
 @media screen and (max-width: 1200px) {
   .nav_container {
@@ -737,7 +719,6 @@ button {
     padding-right: 60px;
   }
 }
-
 
 @media screen and (max-width: 900px) {
   .nav_container {
@@ -828,21 +809,17 @@ button {
   }
 }
 
-
-
 @media screen and (max-width: 728px) {
   .nav_container {
     min-height: 80px;
     padding: 20px;
   }
 
-  .nav__menu,
+  .nav__menu {
+    gap: 10px;
+  }
   .nav__icons {
     display: none;
-  }
-
-  .nav__mobile_btn {
-    display: flex;
   }
 
   .nav__logo {
@@ -999,9 +976,14 @@ button {
   }
 }
 
-
-
 @media screen and (max-width: 480px) {
+  .nav__menu {
+    gap: 10px;
+  }
+  .nav__icons {
+    display: none;
+  }
+
   .main__card h1 {
     font-size: 26px;
   }
